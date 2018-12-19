@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="SFDCDemo" verbose="1" >
+  
+ 
+  <test name="Login Page">
+    <classes>
+      <class name="com.SFDC.Test.BaseTest">
+	      <methods>
+	        <include name="SFDC_Login" />
+	      </methods>
+     </class>
+
+    </classes>
+  </test>
+</suite>

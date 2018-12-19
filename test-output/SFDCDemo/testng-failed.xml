@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SFDCDemo]">
+  <test name="Login Page(failed)">
+    <classes>
+      <class name="com.SFDC.Test.BaseTest">
+        <methods>
+          <include name="SFDC_Login"/>
+        </methods>
+      </class> <!-- com.SFDC.Test.BaseTest -->
+    </classes>
+  </test> <!-- Login Page(failed) -->
+</suite> <!-- Failed suite [SFDCDemo] -->
